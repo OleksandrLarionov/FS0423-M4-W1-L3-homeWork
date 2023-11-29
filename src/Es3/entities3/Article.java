@@ -26,4 +26,21 @@ public class Article {
     public long getNumeroPezziDisponibili() {
         return numeroPezziDisponibili;
     }
+
+    public void setNumeroPezziDisponibili(long numeroPezziDisponibili) {
+        this.numeroPezziDisponibili = numeroPezziDisponibili;
+    }
+
+    public String getDescrizioneArticolo() {
+        return descrizioneArticolo;
+    }
+
+    @Override
+    public String toString() {
+        return "Article{" +
+                "CodiceProdotto='" + this.codiceArticolo + '\'' +
+                ", Descrizione='" + this.descrizioneArticolo + '\'' +
+                ", prezzo=" + prezzo + " " +  "ancora disponibili per l'acquisto: " + " " + this.numeroPezziDisponibili +
+                '}';
+    }
 }

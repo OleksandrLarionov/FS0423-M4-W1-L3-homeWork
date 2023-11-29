@@ -30,5 +30,8 @@ public class Rettangolo {
         System.out.println("Il perimetro del rettangolo è: " + perimetro() + " , " + "Area del rettangolo è: " + area());
     }
 
-
+    public static void stampaDueRettangoli (Rettangolo rettangoloUno, Rettangolo rettangoloDue){
+        rettangoloUno.stampaRettangolo();
+        rettangoloDue.stampaRettangolo();
+    }
 }

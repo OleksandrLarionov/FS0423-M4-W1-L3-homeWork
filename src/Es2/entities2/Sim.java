@@ -35,6 +35,10 @@ public class Sim {
         for (Call call : ultimeCinqueChiamate) {
             System.out.println("Numero chiamato: " + call.getNumeroChiamato() + " " + "Durata: " + call.getDurataMinuti() + "minuti");
         }
+//        for (int i=0; i < ultimeCinqueChiamate.size(); i++){
+//            Call call = ultimeCinqueChiamate.get(i);
+//            System.out.println("Numero chiamato: " + call.getNumeroChiamato() + " " + "Durata: " + call.getDurataMinuti() + "minuti");
+//        }
     }
 
 }
