@@ -20,8 +20,6 @@ public class Main2 {
         nuovaSim1.ultimeCinqueChiamate.add(callCinque);
         nuovaSim1.ultimeCinqueChiamate.add(callSei);
 
-//        nuovaSim1.setLastFiveCalls(callUno);
-
         nuovaSim1.simData();
     }
 }
