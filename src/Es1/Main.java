@@ -7,8 +7,7 @@ public class Main {
         Rettangolo rettangoloUno = new Rettangolo(5, 10);
         Rettangolo rettangoloDue = new Rettangolo(10, 25);
         rettangoloUno.setAltezza(2);
-//        System.out.println("L'area del rettangolo è: " + rettangoloUno.area());
-//        System.out.println("Il perimetro del rettangolo è " + rettangoloUno.perimetro());
+
         rettangoloUno.stampaRettangolo();
         stampaDueRettangoli(rettangoloUno, rettangoloDue);
     }

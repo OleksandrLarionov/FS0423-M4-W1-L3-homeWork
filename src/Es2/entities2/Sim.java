@@ -23,10 +23,6 @@ public class Sim {
         return creditoDisponible;
     }
 
-//    public void setLastFiveCalls(ArrayList<Call> newCall) {
-//        this.lastFiveCalls.addAll(newCall);
-//    }
-
     public void simData() {
         System.out.println("Numero di telefono: " + numeroDiTelefono);
         System.out.println("Credito disponibile: " + creditoDisponible + " euro");
