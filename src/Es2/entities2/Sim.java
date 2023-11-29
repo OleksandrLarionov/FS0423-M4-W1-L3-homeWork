@@ -28,6 +28,10 @@ public class Sim {
         System.out.println("Credito disponibile: " + creditoDisponible + " euro");
         System.out.println("Ultime 5 chiamate effettuate:");
 
+        if (ultimeCinqueChiamate.size() > 5) {
+            ultimeCinqueChiamate.remove(0);
+        }
+
         for (Call call : ultimeCinqueChiamate) {
             System.out.println("Numero chiamato: " + call.getNumeroChiamato() + " " + "Durata: " + call.getDurataMinuti() + "minuti");
         }
